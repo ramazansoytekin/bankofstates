@@ -6,6 +6,7 @@ import Product from "../product/Product";
 import silver from "../images/card/silver.jpg";
 import gold from "../images/card/gold.jpg";
 import platinum from "../images/card/platinum.jpg";
+import Price from "../price/Price";
 
 function Home() {
   return (
@@ -35,6 +36,7 @@ function Home() {
           image={platinum}
         />
       </div>
+      <Price />
   </div>
   );
 }
